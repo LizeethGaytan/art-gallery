@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2rem;
+    stroke: #000;
+    stroke-width: 25%;
+    text-align: center;
+}
+
+/* TODO: make resizing is responsive */
+#img-section {
+    display: grid;
+}
+
+#img-div {
+    padding: 3%;
+}
+
+.border {
+    border: .10rem solid #000;
+
+}
+
+
+#btn-section {
+    float: right;
+}
+
+/* TODO: style btn to fit "aesthetic" */
+#random-btn {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+/* TODO: add @media queries */
